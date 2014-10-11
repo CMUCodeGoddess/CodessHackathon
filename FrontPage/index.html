@@ -43,7 +43,7 @@
 
     <div class="background-image-overlay"></div>
 
-    <div id="outer-background-container" data-default-background-img="assets/images/other_images/web_bg_2.jpg" style="background-image:url(assets/images/other_images/web_bg_2.jpg);"></div>
+    <div id="outer-background-container" data-default-background-img="assets/images/other_images/web_bg_2.jpg" style="background-image:url(assets/images/other_images/web_bg_4.jpg);"></div>
     <!-- end: #outer-background-container -->    
 
     <!-- Outer Container -->
@@ -71,7 +71,7 @@
 
       <section id="main-content" class="clearfix">
         
-        <article id="intro" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/web_bg_2.jpg">
+        <article id="intro" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/web_bg_4.jpg">
           <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
             <div class="col-sm-10 col-md-9 pull-right">
 
@@ -159,7 +159,7 @@
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
 
-        <article id="grid" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/web_bg_4.jpg">
+        <article id="grid" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/web_bg_2.jpg">
           <div class="content-wrapper clearfix">
             <div class="col-sm-11 col-md-10 pull-right">
 
@@ -214,7 +214,14 @@
 
                 </section><!-- end: grid -->
 
-                <p><a href="Game link here">Go to the game</a></p>
+                <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-1');" class="btn btn-outline-inverse btn-sm">>Go to the game</a></p>
+
+                <!--div id="modal-content-1" -->
+                <div>
+                  <script src="processing/processing.js"></script> 
+                  <canvas data-processing-sources="processing/code.pde"></canvas>
+                </div>
+                <!--/div--><!-- #modal-content-1 -->
 
             </div><!-- .col-sm-11 -->
           </div><!-- .content-wrapper -->
